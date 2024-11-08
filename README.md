@@ -31,7 +31,5 @@ Whether you're looking to add some greenery to your living space, buy the latest
 #### 🚀 **Getting Started**:
 
 1. Clone this repository to your local machine using:
-   ```bash
-   git clone https://github.com/your-username/greenplant-shop.git
-   ```
+   LINK( https://shivaranjani01.github.io/greenden-tailwind/)
 
