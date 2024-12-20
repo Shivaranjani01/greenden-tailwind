@@ -16,7 +16,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <h1 class="text-2xl">Greenden</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
           
@@ -35,6 +35,26 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
             </ul>
         
     </nav>
+
+    <!--Side navbar-->
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh;right: -50%;">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+
+        <ul class="flex flex-col gap-10 items-center text-gray-600">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html" target="_blank">Home</a>
+            </li>
+            <li>
+                
+                <a class="hover:underline hover:text-black" href="product.html" target="_blank">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </section>
 
     <!--Header section-->
     <section class="bg-green-100 px-4 py-4 md:p-10 flex justify-center ">
@@ -133,7 +153,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
     <!--customer reviews-->
     <section>
         <h1 class="text-3xl font-bold mt-5 text-center">Customer reviews</h1>
-        <div class="flex flex-col gap-5 justify-center text-white m-5">
+        <div class="flex  justify-center text-white m-5">
             <div class="bg-green-900 p-5 container">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus debitis dolorum sed labore, eaque nam porro? Impedit cumque inventore cupiditate reprehenderit repudiandae cum voluptas eveniet quia ipsam. Repellendus, animi!</p>
                 <p class="font-bold text-yellow-300">Genny Mathew</p>   
@@ -170,6 +190,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
         <p>The standard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim, expedita ea velit dolorem non possimus vero numquam eos porro</p>
         <p>@ 2024 Greenday.com</p>
     </section>
+    <script src="index.js"></script>
 
 </body>
 </html>
