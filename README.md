@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # greenden-tailwind
-=======
+
 
 
 ### Project Title:
@@ -34,6 +34,3 @@ Explore GreenDen today and start cultivating your green space! 🌱✨
 
 🔗 [https://shivaranjani01.github.io/greenden-tailwind/]
 
----
-
->>>>>>> dc1397eb069bfbfbf8e3c6ce3263f294816f417e
